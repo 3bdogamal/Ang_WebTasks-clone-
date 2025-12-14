@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* -------- Header Section --------- */
+.header {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+.logo img {
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+}
+.text-logo {
+    float: left;
+    margin-top: 13px; 
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.navbar {
+    float: right;
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 12px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block; 
+    margin-left: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*-------- Hero Section -------------*/
+.hero {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.hero-content {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+}
+.hero .hero-title{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 20px;
+}
+.hero .hero-desc{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.hero .btn {
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+}
+.hero .btn-o {
+    background-color: #fe5c34;
+    margin-right: 15px;
+}
+.hero .btn-b {
+    background-color: #000;
+    margin-right: 15px;
+}
+.hero-image {
+    float: right;
+    width: 48%;
+    text-align: right;
+}
+.hero-image img {
+    width: 90%;
+    height: auto;
+}
+
+/* --------------- Our Services Section ------------ */
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.services-title {
+    text-align: center;
+}
+.services-title h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.services-title p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    float: left;
+    width: 30%;
+    margin-left: 0.5%;
+    border: 1px solid #eee;
+    padding: 50px 15px;
+    text-align: center;
+}
+.service-item:hover {
+    border-top: 10px solid #fe5c34;
+}
+.service-item img {
+    height: 60px;
+    margin-bottom: 25px;
+}
+.service-item h3 {
+    color: #fe5c34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.service-item p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.services div {
+    text-align: center;
+}
+.services .btn {
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 25px;
+}
+
+.services .btn-b {
+    background-color: #000;
+    margin-right: 15px;
+}
+.services .btn-b:hover{
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+}
+
+/* ---------------- Fresh Section ------------------- */
+.fresh {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fresh-title {
+    text-align: center;
+}
+.fresh-title h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.fresh-title p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.fresh-content {
+    margin-top: 40px;
+    /* border: 1px solid #eee; */
+}
+.fresh-content .fresh-text {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+}
+.fresh-content .fresh-text h3 {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.fresh-content .fresh-text p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.fresh-content .fresh-text .btn {
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 25px;
+}
+.fresh-content .fresh-text .btn-b {
+    background-color: #000;
+    margin-right: 15px;
+}
+.fresh-content .fresh-text .btn-b:hover{
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+}
+.fresh-content .fresh-img {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.fresh-content .fresh-img img {
+    max-width: 100%;
+    height: auto;
+}
