@@ -284,7 +284,6 @@
 .footer-col h3 {
     font-size: 20px;
     font-weight: 700;
-    color: #fe5c34;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
@@ -315,7 +314,17 @@
     padding: 5px;
     border: 1px solid #ccc;
 }
-
+.footer-col .btn {
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+}
+.footer-col .btn-o {
+    background-color: #fe5c34;
+    margin-right: 15px;
+}
 
 .footer-copy {
     text-align: center;
